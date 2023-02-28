@@ -1,12 +1,24 @@
 // ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#include <forward_list>
 #include <iostream>
+#include <valarray>
 
 int main()
 {
     std::cout << "Hello World!\n";
     system("pause");
+    int swapone;
+    swapone = 50;
+    int swaptwo;
+    swaptwo = 25;
+    std::cout << "variable one is " << swapone << " and variable two is " << swaptwo << " input anything to swap. \n";
+    system("pause");
+    std::swap(swapone, swaptwo);
+    std::cout << "variable one is now " << swapone << " and variable two is now " << swaptwo << " input anything to exit. \n";
+    system("pause");
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
